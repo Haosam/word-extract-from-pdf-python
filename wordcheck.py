@@ -4,17 +4,8 @@ import csv
 from itertools import islice
 import os
 
-#filename="./text/30_asean_summit.pdf.txt"
 filedir = "./text/"
-numLines = 0
-numWords = 0
-numChars = 0
-"""
-ASEAN = 0
-I = 0
-soverign = 0
-territory = 0
-"""
+
 
 for txt in os.listdir(filedir):
 
